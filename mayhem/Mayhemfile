@@ -1,0 +1,6 @@
+project: lingpy
+target: lingpy_fuzz
+
+cmds:
+    - cmd: /lingpy/fuzz/lingpy_fuzz.py
+      libfuzzer: true
